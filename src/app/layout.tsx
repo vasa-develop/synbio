@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Synthetic Biology (vasa)",
   description: "A list of synthetic biology resources built by vasa.",
+  icons: "/synbio_favicon.ico",
   openGraph: {
     title: "Synthetic Biology Projects - Built by vasa",
     description: "A list of synthetic biology resources built by vasa.",
