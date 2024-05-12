@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gray-50 ">
       <div className="fixed top-0 left-0 w-full h-full">
         <video
-          src="/bg_video.mp4"
+          src="/bg_video_compressed.mp4"
           autoPlay
           muted
           loop
