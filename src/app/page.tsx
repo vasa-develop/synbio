@@ -2,28 +2,29 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gray-50 ">
+    <main className="flex min-h-screen flex-col items-center justify-center p-2 bg-gray-50 ">
       <div className="fixed top-0 left-0 w-full h-full">
         <video
           src="/bg_video_compressed.mp4"
           autoPlay
+          playsInline
           muted
           loop
           className="w-full h-full object-cover"
         ></video>
       </div>
-      <div className="w-full max-w-2xl p-8 bg-white shadow-lg hover:shadow-md group transition-shadow rounded-lg relative">
+      <div className="w-full max-w-2xl p-4 lg:p-8 bg-white shadow-lg hover:shadow-md group transition-shadow rounded-lg relative">
       <a
             href="https://github.com/vasa-develop/awesome-synthetic-biology"
-            className="flex items-center gap-4 cursor-pointer"
+            className=" flex sm:flex-row flex-col justify-center sm:justify-start items-center gap-4 cursor-pointer"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div>
               <Image src="/dna.png" alt="Synthetic Biology" width={250} height={250} className="w-12 h-12" />
               </div>
-        <div >
-          <h1 className="text-2xl group-hover:underline font-bold text-gray-800" >
+        <div className="text-center sm:text-left" >
+          <h1 className="md:text-2xl text-xl group-hover:underline font-bold text-gray-800" >
             Featured Project
           </h1>
           <p className="mt-2 text-sm text-gray-600">
