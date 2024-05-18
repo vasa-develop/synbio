@@ -25,10 +25,10 @@ export default function Home() {
               </div>
         <div className="text-center sm:text-left" >
           <h1 className="md:text-2xl text-xl group-hover:underline font-bold text-gray-800" >
-            Featured Project
+            Project 1: Awesome Synthetic Biology
           </h1>
           <p className="mt-2 text-sm text-gray-600">
-            Explore this curated list of resources dedicated to Synthetic Biology.
+            A curated list of resources dedicated to Synthetic Biology.
           </p>
         </div>
         </a>
