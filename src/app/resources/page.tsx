@@ -22,7 +22,7 @@ const ResourcesPage: NextPage = () => {
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
         <img src="/genomics.gif" alt="Loading..." width={100} height={100} />
       </div>
-      <RedirectLink link='https://github.com/vasa-develop/awesome-synthetic-biology' />
+      <RedirectLink link='https://vasa.bio/publications-talks/how-to-learn-synthetic-biology-as-a-programmer' />
     </div>
   );
 };
